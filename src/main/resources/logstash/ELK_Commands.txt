@@ -1,0 +1,17 @@
+cd /cygdrive/d/Sreejesh/Installers/elasticsearch-7.4.1/bin
+./elasticsearch.bat
+http://localhost:9200/
+
+
+cd /cygdrive/d/Sreejesh/Installers/kibana-7.4.1-windows-x86_64/bin
+./kibana.bat
+http://localhost:5601
+
+
+
+cd /cygdrive/d/Sreejesh/Installers/logstash-7.4.1/bin
+./logstash.bat -f logstash.conf
+#./logstash.bat -f D:/Sreejesh/Code/spring-boot-elk/src/main/resources/logstash/logstash.conf
+
+
+cd /cygdrive/d/Sreejesh/Installers/logstash-7.1.0/bin
